@@ -19,23 +19,27 @@
     <ul id="lightgallery">
       <li >
         <a href="">
-          <img class="img-responsive" alt="주문하기" src="back.PNG">
-        </a>
+          <img class="img-responsive"  src="back.PNG"> </a>
+          <b> 주문하기 </b>
       </li>
-      <li  data-src="back.PNG">
+      <li>
         <a href="">
           <img class="img-responsive" src="back.PNG">
         </a>
+        <b> 주문 조회 </b>
+        
       </li>
-      <li  data-src="back.PNG">
+      <li>
         <a href="">
           <img class="img-responsive" src="back.PNG">
         </a>
+        <b> 내 정보 </b>
       </li>
-      <li  data-src="back.PNG">
+      <li>
         <a href="">
           <img class="img-responsive" src="back.PNG">
         </a>
+        <b> 안내도 </b>
       </li>
     </ul>
     <span class="small">Click on any of the images to see lightGallery</span>

@@ -11,7 +11,7 @@ body {
   
 }
 
-.small {
+ .small {
   font-size: 11px;
   color: #999;
   display: block;
@@ -227,4 +227,4 @@ body {
 
 .demo-gallery.dark > ul > li a {
   border: 3px solid #04070a;
-}
+} 
