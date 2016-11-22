@@ -18,7 +18,7 @@
   <div class="demo-gallery">
     <ul id="lightgallery">
       <li >
-        <a href="">
+        <a href="./order.jsp">
           <img class="img-responsive"  src="../resource/images/back.PNG"> </a>
           <b> 주문하기 </b>
       </li>
