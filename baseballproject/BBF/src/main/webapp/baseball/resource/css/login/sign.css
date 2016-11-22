@@ -1,8 +1,9 @@
 body{
   margin:0;
   color:#6a6f8c;
-  background:url(../../images/bigdoor.jpg) no-repeat;
-  background-size:100% auto;
+  background-image:url(../../images/bigdoor.jpg) no-repeat;
+  background-size:100% 100%;
+  background-position: 50% 50%;
   font:600 16px/18px 'Open Sans',sans-serif;
 }
 
