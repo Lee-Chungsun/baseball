@@ -5,10 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="../resource/css/sign.css"/>
+<link rel="stylesheet" type="text/css" href="../resource/css/login/sign.css"/>
 </head>
 <body>
+ 
 <div class="login-wrap">
+
   <div class="login-html">
    <div> <h1>BaseBall</h1></div>
     <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
@@ -16,6 +18,7 @@
     
     <div class="login-form">
     <!-- ////////  로그인 창  //////////-->
+    <form action="./select2.jsp">
       <div class="sign-in-htm">
         <div class="group">
           <label for="user" class="label">Username</label>
@@ -30,13 +33,16 @@
           <label for="check"><span class="icon"></span> Keep me Signed in</label>
         </div>
         <div class="group">
-          <input type="submit" class="button" value="Sign In">
+          <input type="submit" class="button" value="Sign In"  >
         </div>
         <div class="hr"></div>
         <div class="foot-lnk">
           <a href="#forgot">Forgot Password?</a>
+          
         </div>
+        
       </div>
+      </form>
      <!-- ////////  로그인 창  //////////-->
      <!-- ////////  회원가입 창  //////////-->
       <div class="sign-up-htm">
@@ -64,6 +70,7 @@
           <label for="tab-1">Already Member?</a>
         </div>
       </div>
+      
       <!-- ////////  회원가입 창  //////////-->
       <div class="sign-up-htm">
         <div class="group">
@@ -93,5 +100,6 @@
     </div>
   </div>
 </div>
+
 </body>
 </html>
