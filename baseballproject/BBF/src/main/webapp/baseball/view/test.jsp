@@ -5,20 +5,84 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-
-
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<style>
+  thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    
+  
+    
+    
+  }
+</style>
+
 </head>
 <body>
 
-<h1>추가 </h1>
+<input type="button" value="증가">
+
+
+<h2> count : <h1>0</h1>  명</h2>
+
+<br/><br/><br/>
+
+<table border="1">
+                  <tr height="50px">
+                    <h>
+                      <td style="padding:center; background-color:red;" rowspan="2"  ><img height="100px" width="100px" src="../resource/images/order/gug.PNG" /></td>
+                      <td rowspan="1" class="textcolor">
+                                        버터오징어</td>
+                      <td rowspan="1" class="textcolor">3000원</td>
+                    </h>
+                  </tr>
+                  
+                  <tr>
+                   <h>
+                    
+                     <td> <input type="button" value="결제">
+                      <input type="button" value="담기"></td>
+                   </h>
+                  </tr>
+            
+                  <tr>
+                   <h>
+                     <td rowspan="2" width="40%">123</td>
+                     <td  class="textcolor" width="50%">버터오징어(몸)</td>
+                     <td  class="textcolor" width="5%">3000원</td>
+                   </h>
+                  </tr>
+                  <tr>
+                   <h>
+                      <td  class="textcolor" width="40%"> <input type="button" value="결제"></td>
+                      <td  class="textcolor" width="40%"> <input type="button" value="담기"></td>
+                   </h>
+                  </tr>
+                  <tr>
+                   <h>
+                      <td  class="textcolor"rowspan="2" width="40%"></td>
+                      <td  class="textcolor" width="50%">버터오징어(다리)</td>
+                      <td  class="textcolor" width="5%">3000원</td>
+                   </h>
+                  </tr>
+                  <tr> 
+                   <h>
+                      <td  class="textcolor" width="40%"> <input type="button" value="결제"></td>
+                      <td  class="textcolor" width="40%"> <input type="button" value="담기"></td>
+                   </h>
+                  </tr>
+               </table>
+
+
+
+
+
 
 
 
 <script type="text/javascript">
- $('h1').on("click",function(){
-	 $(this).color
-	 $(this).add("<h>ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄹ");
+str=0;
+
+ $('input').on("click",function(){
+	 $('h1').text(++str);
  });
 
 </script>
