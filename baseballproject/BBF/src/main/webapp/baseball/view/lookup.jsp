@@ -13,11 +13,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="stylesheet" href="../resource/css/lookup/main.css" />
+   
  
-     <link rel="stylesheet" type="text/css" href="assets/css/orderandmenu.css"/>
+     <link rel="stylesheet" type="text/css" href="../resource/css/lookup/orderandmenu.css"/>
   
   </head>
   <body>
@@ -69,7 +68,7 @@
               
               <br/><br/>
                <div position: relative; bottom: 100px>
-                <input type="button" value="확  인" style="width:80px;">
+                <a href="./usermain.jsp"><input type="button" value="확  인" style="width:80px;"></a>
                </div>
               </div>
 
@@ -80,12 +79,12 @@
 </div>
     <!-- Scripts -->
      
-       <script src="assets/js/event.js"></script>
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/skel.min.js"></script>
-      <script src="assets/js/util.js"></script>
+       <script src="../resource/js/lookup/event.js"></script>
+      <script src="../resource/js/lookup/jquery.min.js"></script>
+      <script src="../resource/js/lookup/skel.min.js"></script>
+      <script src="../resource/js/lookup/util.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-      <script src="assets/js/main.js"></script>
+      <script src="../resource/js/lookup/main.js"></script>
 
   </body>
 </html>

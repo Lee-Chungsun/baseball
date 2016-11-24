@@ -15,6 +15,19 @@
 
   <link rel="stylesheet" href="../resource/css/order/main.css" />
   <link rel="stylesheet" type="text/css" href="../resource/css/order/orderandmenu.css"/>
+  <style>
+    h3{
+      display:inline;
+    }
+    .item {
+      display:none;
+    }
+    
+    .clicked{
+     display:block;
+    }
+  </style>
+ 
 </head>
 <body>
   <!-- Wrapper -->
@@ -57,7 +70,7 @@
 				      </a>
 						  <ul class="dropdown-menu hide">
 								<table>
-						      <tr>
+						      <tr id="item1">
 						        <h>
 						          <td margin="auto" rowspan="2"  >
 						            <img  src="../resource/images/order/cuttlefish3.PNG" /></td>
@@ -69,8 +82,8 @@
 						      
 						      <tr>
 									 <h>
-									   <td> <input type="button" value="결제"></td>
-                     <Td><input type="button" value="담기"></td>
+									   <td><input id="buy1" type="button" value="결제"></td>
+                     <td><input id="put1" type="button" value="담기"></td>
 									   
 						       </h>
 						      </tr>
@@ -188,7 +201,7 @@
                   <tr>
                    <h>
                       <td  class="textcolor" width="40%"> <input type="button" value="결제"></td>
-                      <td  class="textcolor" width="40%"> <input type="button" value="담기"></td>
+                      <td  class="textcolor" width="40%"> <input class="in" type="button" value="담기"></td>
                    </h>
                   </tr>
                   
@@ -215,7 +228,7 @@
                   <tr>
                    <h>
                      <td> <input type="button" value="결제"></td>
-                     <Td><input type="button" value="담기"></td>
+                     <Td><input class="in" type="button" value="담기"></td>
                      
                    </h>
                   </tr>
@@ -231,6 +244,13 @@
     </div>
   </div>
 </div>
+
+<div  style="  padding-right:0;   background-color:rgba(150,150,150,0.9); position:fixed; width:100%;bottom:0; ">
+   
+  <input id="testfix" type="button" value="목록보기" style="width:100% ; margin:auto; ">
+  <h3 display="inline">총금액 <h3 class="cash">0</h3>원</h3><button  style="right:0; ">결제하기</button>
+  <ol  id="fixedarea" class="item" style="overflow:auto; height:150px;"></ol>
+ </div>
     <!-- Scripts -->
 				     
 				<script src="../resource/js/order/event.js"></script>
@@ -239,6 +259,25 @@
 				<script src="../resource/js/order/util.js"></script>
 				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 				<script src="../resource/js/order/main.js"></script>
+
+
+ <script type="text/javascript">
+  
+  $("#put1").on("click",function(){
+   
+    var str= "<li>"+$('#item1').html().trim()+"</li>";
+    $('#fixedarea').append(str);
+  
+  });
+  
+ 
+  
+  $('#testfix').on("click",function(){
+	   $('#fixedarea').toggleClass('clicked');
+	 });
+  </script>
+
+
 
   </body>
 </html>

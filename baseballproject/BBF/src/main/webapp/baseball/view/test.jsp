@@ -7,12 +7,9 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <style>
-  thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    
-  
-    
-    
-  }
+.clicked {
+  height: 200px;
+}
 </style>
 
 </head>
@@ -73,7 +70,15 @@
 
 
 
+<div id="testfix" style=" background-color:red; position:fixed; width:100%;bottom:0;  left: 0; ">
+<input type="button" value="목록보기" style="width:100% ; margin:auto; ">
 
+  <div id="fixitem" overflow="scroll">
+    
+  
+  </div>
+
+</div>
 
 
 
@@ -84,9 +89,17 @@ str=0;
  $('input').on("click",function(){
 	 $('h1').text(++str);
  });
+ 
+ $('#testfix').on("click",function(){
+	 $(this).toggleClass('clicked');
+ });
 
 </script>
 
+
+<i>
+  
+</i>
 
 </body>
 </html>

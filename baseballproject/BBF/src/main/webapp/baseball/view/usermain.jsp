@@ -23,7 +23,7 @@
           <b> 주문하기 </b>
       </li>
       <li>
-        <a href="">
+        <a href="./lookup.jsp">
           <img class="img-responsive" src="../resource/images/back.PNG">
         </a>
         <b> 주문 조회 </b>
