@@ -61,184 +61,135 @@
 				            
 				<div class="container">
 				  <ul>
-				   
-				   
-				    <li class="dropdown">
-					    <a data-toggle="dropdown" href="#">
+	           <li class="dropdown">
+					     <a data-toggle="dropdown" href="#">
 				                        오수리
-				        <i class="icon-arrow close"></i>
-				      </a>
-						  <ul class="dropdown-menu hide">
-								<table>
-						      <tr id="item1">
-						        <h>
+				       <i class="icon-arrow close"></i>
+				       </a>
+						    <ul class="dropdown-menu hide">
+								  <table>
+						        <tr id="item1">
 						          <td margin="auto" rowspan="2"  >
 						            <img  src="../resource/images/order/cuttlefish3.PNG" /></td>
-						          <td rowspan="1" class="textcolor">
+						          <td  class="textcolor">
 						                            버터오징어</td>
-						          <td rowspan="1" class="textcolor">3000원</td>
-						        </h>
-						      </tr>
-						      
-						      <tr>
-									 <h>
-									   <td><input id="buy1" type="button" value="결제"></td>
-                     <td><input id="put1" type="button" value="담기"></td>
-									   
-						       </h>
-						      </tr>
-						
-						      <tr>
-						       <h>
-							       <td rowspan="2" width="40%"><img  src="../resource/images/order/cuttlefish1.PNG" /></td></td>
-							       <td  class="textcolor" width="50%">버터오징어(몸)</td>
-							       <td  class="textcolor" width="5%">3000원</td>
-						       </h>
-						      </tr>
-						      <tr>
-						       <h>
-											<td  class="textcolor" width="40%"> <input type="button" value="결제"></td>
-											<td  class="textcolor" width="40%"> <input type="button" value="담기"></td>
-									 </h>
-									</tr>
-									<tr>
-									 <h>
-											<td  class="textcolor"rowspan="2" width="40%"><img  src="../resource/images/order/cuttlefish2.PNG" /></td></td>
-											<td  class="textcolor" width="50%">버터오징어(다리)</td>
-											<td  class="textcolor" width="5%">3000원</td>
-									 </h>
-									</tr>
-									<tr> 
-									 <h>
-											<td  class="textcolor" width="40%"> <input type="button" value="결제"></td>
-											<td  class="textcolor" width="40%"> <input type="button" value="담기"></td>
-									 </h>
-									</tr>
-							 </table>
-							</ul>
-					
-					
-					
-							  </li>
-		            <li class="dropdown">
-		          
-		            <a data-toggle="dropdown" href="#">
-		                                      야신고로케
-		                <i class="icon-arrow close"></i>
-		            </a>
-		           
-		            <ul class="dropdown-menu hide">
-		                
-		                
-		               <table>
-                  <tr>
-                    <h>
-                      <td margin="auto" rowspan="2"  >
-                        <img  src="../resource/images/order/goro1.PNG" /></td>
-                      <td rowspan="1" class="textcolor">
-                                        고로케</td>
-                      <td rowspan="1" class="textcolor">2000원</td>
-                    </h>
-                  </tr>
-                  
-                  <tr>
-                   <h>
-                     <td> <input type="button" value="결제"></td>
-                     <Td><input type="button" value="담기"></td>
-                     
-                   </h>
-                  </tr>
-            
-                  <tr>
-                   <h>
-                     <td rowspan="2" width="40%"><img  src="../resource/images/order/tornado.PNG" /></td></td>
-                     <td  class="textcolor" width="50%">회오리감자</td>
-                     <td  class="textcolor" width="5%">1500원</td>
-                   </h>
-                  </tr>
-                  <tr>
-                   <h>
-                      <td  class="textcolor" width="40%"> <input type="button" value="결제"></td>
-                      <td  class="textcolor" width="40%"> <input type="button" value="담기"></td>
-                   </h>
-                  </tr>
-                  
-               </table>
-		            </ul>
-		        </li>
+						          <td  class="textcolor">3000원</td>
+						        </tr>
+						        <tr>
+									    <td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+                      <td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>
+						        </tr>
+						      </table>
+						      <table>
+						        <tr>
+							        <td rowspan="2"><img  src="../resource/images/order/cuttlefish1.PNG" /></td></td>
+							        <td  class="textcolor" >버터오징어(몸)</td>
+							        <td  class="textcolor" >3000원</td>
+						        </tr>
+						        <tr>
+										  <td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+                      <td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>
+									  </tr>
+									</table>
+                  <table>
+									  <tr>
+											<td  class="textcolor"rowspan="2"><img  src="../resource/images/order/cuttlefish2.PNG" /></td></td>
+											<td  class="textcolor">버터오징어(다리)</td>
+											<td  class="textcolor">3000원</td>
+									  </tr>
+									  <tr>
+											<td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+											<td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>
+									  </tr>
+							    </table>
+							 </ul>
+						</li>
 		        <li class="dropdown">
-		            <a data-toggle="dropdown" href="#">
-		                                         국대떡볶이
-		                <i class="icon-arrow close"></i>
-		            </a>
-		            <ul class="dropdown-menu hide">
-		             <table>
+		          <a data-toggle="dropdown" href="#">
+		                                      야신고로케
+		            <i class="icon-arrow close"></i>
+		          </a>
+		          <ul class="dropdown-menu hide">
+		            <table>
                   <tr>
-                    <h>
-                      <td margin="auto" rowspan="2"  >
+                     <td margin="auto" rowspan="2"  >
+                        <img  src="../resource/images/order/goro1.PNG" /></td>
+                     <td rowspan="1" class="textcolor">
+                                                  고로케
+                     </td>
+                     <td rowspan="1" class="textcolor">2000원</td>
+                  </tr>
+                  <tr>
+                     <td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+                     <td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>
+                  </tr>
+                  <tr>
+                     <td rowspan="2"><img  src="../resource/images/order/tornado.PNG" /></td></td>
+                     <td  class="textcolor" >회오리감자</td>
+                     <td  class="textcolor" >1500원</td>
+                  </tr>
+                  <tr>
+                     <td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+                     <td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>
+                  </tr>
+               </table>
+		         </ul>
+		       </li>
+		       <li class="dropdown">
+		         <a data-toggle="dropdown" href="#">
+                                   국대떡볶이
+               <i class="icon-arrow close"></i>
+             </a>
+             <ul class="dropdown-menu hide">
+	             <table>
+                  <tr>
+                     <td margin="auto" rowspan="2"  >
                         <img  src="../resource/images/order/ddug.PNG" /></td>
-                      <td rowspan="1" class="textcolor">
-                                        떡볶이</td>
-                      <td rowspan="1" class="textcolor">2000원</td>
-                    </h>
-                  </tr>
-                  
-                  <tr>
-                   <h>
-                     <td> <input type="button" value="결제"></td>
-                     <Td><input type="button" value="담기"></td>
-                     
-                   </h>
-                  </tr>
-            
-                  <tr>
-                   <h>
-                     <td rowspan="2" width="40%"><img  src="../resource/images/order/xnlrla.PNG" /></td></td>
-                     <td  class="textcolor" width="50%">튀김</td>
-                     <td  class="textcolor" width="5%">1500원</td>
-                   </h>
+                     <td class="textcolor">
+                                                  떡볶이</td>
+                     <td class="textcolor">2000원</td>
                   </tr>
                   <tr>
-                   <h>
-                      <td  class="textcolor" width="40%"> <input type="button" value="결제"></td>
-                      <td  class="textcolor" width="40%"> <input class="in" type="button" value="담기"></td>
-                   </h>
+                     <td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+                     <td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>
                   </tr>
-                  
                </table>
-		            </ul>
-		        </li>
-		            <li class="dropdown">
-		            <a data-toggle="dropdown" href="#">
-		                Hite
-		                <i class="icon-arrow close"></i>
-		            </a>
-		            <ul class="dropdown-menu hide">
-		               <table>
+               <table>
                   <tr>
-                    <h>
-                      <td margin="auto" rowspan="2"  >
-                        <img  src="../resource/images/order/beer.PNG" /></td>
-                      <td rowspan="1" class="textcolor">
-                                        맥주</td>
-                      <td rowspan="1" class="textcolor">3000원</td>
-                    </h>
+                     <td rowspan="2"><img  src="../resource/images/order/xnlrla.PNG" /></td></td>
+                     <td  class="textcolor" >튀김</td>
+                     <td  class="textcolor" >1500원</td>
                   </tr>
-                  
                   <tr>
-                   <h>
-                     <td> <input type="button" value="결제"></td>
-                     <Td><input class="in" type="button" value="담기"></td>
-                     
-                   </h>
+                      <td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+                      <td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>   
                   </tr>
-            
                </table>
-		            </ul>
-		        </li>
-		
-		          </ul>
-		       </div>
+		         </ul>
+		       </li>
+		       <li class="dropdown">
+		           <a data-toggle="dropdown" href="#">
+		             Hite
+		             <i class="icon-arrow close"></i>
+		           </a>
+		           <ul class="dropdown-menu hide">
+		           <table>
+                  <tr>
+                    <td margin="auto" rowspan="2"  >
+                      <img  src="../resource/images/order/beer.PNG" /></td>
+                    <td class="textcolor">
+                                              맥주</td>
+                    <td class="textcolor">3000원</td>
+                  </tr>
+                  <tr>
+                    <td  class="textcolor" width="40%"> <input class="buy" type="button" value="결제"></td>
+                      <td  class="textcolor" width="40%"> <input class="put" type="button" value="담기"></td>
+                  </tr>
+               </table>
+		         </ul>
+		       </li>
+		      </ul>
+		     </div>
         </div>
       </div>
     </div>
@@ -248,7 +199,7 @@
 <div  style="  padding-right:0;   background-color:rgba(150,150,150,0.9); position:fixed; width:100%;bottom:0; ">
    
   <input id="testfix" type="button" value="목록보기" style="width:100% ; margin:auto; ">
-  <h3 display="inline">총금액 <h3 class="cash">0</h3>원</h3><button  style="right:0; ">결제하기</button>
+  <h3 display="inline">&nbsp;총금액 <h3 id="cash">0</h3>원</h3><button  style="right:0;float:right; ">결제하기</button>
   <ol  id="fixedarea" class="item" style="overflow:auto; height:150px;"></ol>
  </div>
     <!-- Scripts -->
@@ -263,9 +214,9 @@
 
  <script type="text/javascript">
   
-  $("#put1").on("click",function(){
+  $(".put").on("click",function(){
    
-    var str= "<li>"+$('#item1').html().trim()+"</li>";
+    var str= "<li id='addlist'>"+$(this).closest("table").text().trim()+"<button  id='del'>x</button></li>";
     $('#fixedarea').append(str);
   
   });
@@ -275,6 +226,11 @@
   $('#testfix').on("click",function(){
 	   $('#fixedarea').toggleClass('clicked');
 	 });
+  
+  $("#fixedarea").on("click","#del",function(){
+	 
+	  $(this).parent().fadeOut(500);
+  });
   </script>
 
 

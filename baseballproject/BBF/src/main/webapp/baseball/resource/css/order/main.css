@@ -2232,7 +2232,7 @@
   }
 
   table {
-    margin: 0 0 2em 0;
+    margin: 0 0 0 0;
     width: 100%;
         
     background-color: #F6F6F6;
@@ -3211,11 +3211,11 @@ body {
 }
 
 .item{
-	display: visible;
+  display: visible;
 }
 
 .clicked{
-	display: hide;
+  display: hide;
 }
 
 
@@ -3429,7 +3429,3 @@ body {
         transform: scaleY(0);
     }
 }
-		
-		
-		
-		

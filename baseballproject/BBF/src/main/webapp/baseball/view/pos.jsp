@@ -11,18 +11,16 @@
 <title>Strata by HTML5 UP</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="css/assets2/css/main.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<link rel="stylesheet" href="../resource/css/pos/pos.css" />
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
 
 
 <link rel="stylesheet"
-	href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet"
-	href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+	href="../../node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
 
 
 
@@ -45,6 +43,7 @@
 			<tr>
 				<td colspas="2">1루</td>
 			</tr>
+
 
 		</table>
 		<table class="table" id="dlist2">
@@ -121,12 +120,12 @@
 
 
 
-	<script src="css/assets2/js/jquery.min.js"></script>
-	<script src="css/assets2/js/jquery.poptrox.min.js"></script>
-	<script src="css/assets2/js/skel.min.js"></script>
-	<script src="css/assets2/js/util.js"></script>
+	<script src="../resource/js/pos/jquery.min.js"></script>
+	<script src="../resource/js/pos/jquery.poptrox.min.js"></script>
+	<script src="../resource/js/pos/skel.min.js"></script>
+	<script src="../resource/js/pos/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="css/assets2/js/main.js"></script>
+	<script src="../resource/js/pos/main.js"></script>
 	
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -183,11 +182,11 @@
           time=(number*2);
 		});
 		$("#del").on("click", function() {
-			$(this).parent().parent().remove();
+			$(this).parent().parent().fadeOut(1000);
 		});
 
 		$("#dlist1").on("click", "#del", function() {
-			$(this).parent().parent().remove();
+			$(this).parent().parent().fadeOut(1000);
 			 $("#count").text(--count);
 		});
 		
